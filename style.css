@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+h2 {
+  font-size: 25px;
+  text-align: center;
+}
+
+label {
+  text-align: center;
+  font-size: 20px;
+  
+}
+p{
+  font-size: 20px;
+ 
+  font-weight: bold;
+  margin-top: 50px;
+}
+#next, #previous, #calculate  {
+  display: none;
+  position: absolute;
+  height: 30px;
+  bottom: 100px;
+  width: 200px;
+  background-color: rgb(155, 153, 154);
+  color: rgb(255, 20, 39);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
+#next:hover, #previous:hover, #go:hover,  #calculate:hover{
+  background-color: blueviolet;
+
+}
+#go{
+  position: absolute;
+  height: 30px;
+  bottom: 400px;
+  left: 500px;
+  width: 200px;
+  background-color: rgb(155, 153, 154);
+  color: rgb(255, 20, 39);
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+#next,  #calculate {
+  right: 200px;
+}
+#previous {
+  left: 100px;
+}
+
+.slide {
+  display: none;
+  text-align: center;
+}
+
